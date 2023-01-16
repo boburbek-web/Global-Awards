@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: white;
+}
+.navbar .navbar-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
+}
+.navbar .navbar-main .logo {
+  width: 20%;
+}
+.navbar .navbar-main .logo .logo_img {
+  width: 70%;
+}
+.navbar .navbar-main a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .navbar-main :hover {
+  color: red;
+}
+.navbar .navbarItems {
+  width: 35%;
+}
+
+.mainContent {
+  background: #000;
+}
+
+.oscarNavbar {
+  background-color: #000;
+  height: auto;
+}
+.oscarNavbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.oscarNavbar :hover {
+  color: red;
+}
+
+.oscarMain {
+  background-color: #000;
+}
+.oscarMain .oscarLogoImg {
+  width: 50px;
+}
+.oscarMain .oscarLogoImgTwo {
+  width: 100px;
+}
+.oscarMain .oscarImg {
+  height: 500px;
+}
+
+.moviesOscar {
+  background: #000;
+}
+.moviesOscar .moviesOscarImg {
+  height: 600px;
+}
+
+.kidsChoiseAwards {
+  width: 30%;
+  margin: auto 10%;
+}
+
+.choisefilm h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.choiseSinger img {
+  height: 60%;
+}
+
+.footerFluid {
+  background: #000;
+}/*# sourceMappingURL=index.css.map */

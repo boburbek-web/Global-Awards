@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// Navbar start
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: white;
+
+  .navbar-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-around;
+
+    .logo {
+      width: 20%;
+
+      .logo_img {
+        width: 70%;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    :hover {
+      color: red;
+    }
+  }
+  .navbarItems{
+    width: 35%;
+  }
+}
+
+.mainContent {
+  background: #000;
+}
+// Navbar end
+
+// Oscar start
+
+.oscarNavbar {
+  background-color: #000;
+  height: auto;
+
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  :hover {
+    color: red;
+  }
+}
+.oscarMain {
+  background-color: #000;
+  .oscarLogoImg {
+    width: 50px;
+  }
+  .oscarLogoImgTwo {
+    width: 100px;
+  }
+  .oscarImg {
+    height: 500px;
+  }
+
+}
+.moviesOscar {
+  background: #000;
+
+  .moviesOscarImg {
+    height: 600px;
+  }
+}
+.kidsChoiseAwards{
+  width: 30%;
+  margin: auto 10%;
+}
+.choisefilm h4{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.choiseSinger img{
+height: 60%;
+}
+.footerFluid {
+  background: #000;
+}
